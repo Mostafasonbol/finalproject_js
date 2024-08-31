@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+.nav-link{
+    font-size: 25px;
+    color: black;
+}
+
+/* section */
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+/* div hidden */
+.hidden{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.card {
+    background-color: #fff;
+    color: #000;
+}
+.fa-solid {
+    color: yellow;
+}
+
+/* dark mode*/
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar.dark-mode {
+    background-color: #333;
+}
+
+.card.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+.btn-dark{
+    background: black;
+    color: white;
+    width: 115px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: bold;
+}
